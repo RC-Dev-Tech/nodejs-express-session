@@ -1,4 +1,4 @@
-# ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - Express-Session + Cookie-Parser
+# ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - Express-Session
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
 <br>
@@ -39,8 +39,8 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，
 > session資料是儲存在server端.
 
 實作範例:
-- [Example1](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example1.ts) - 基本session的使用方式.
-- [Example2](https://github.com/RC-Dev-Tech/nodejs-express-cookie-parser/blob/main/src/examples/example2.ts) - 簡易版登入實作.
+- [Example1](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example1.ts) - 基本session的使用方式.
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example2.ts) - 簡易版登入實作.
 
 ---
 <br>
