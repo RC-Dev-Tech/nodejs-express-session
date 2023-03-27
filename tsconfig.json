@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": false,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "experimentalDecorators": true,
+      "declaration": false,
+      "outDir": "./dist",
+      "baseUrl": "./src"
+  },
+  "include": [
+      "./src"
+  ]
+}
