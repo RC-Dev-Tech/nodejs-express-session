@@ -113,4 +113,4 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 `npm install express --save` <br>
 `npm install cookie-parser --save` <br>
 `npm install express-session --save` <br>
-因為這個套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
+因為這些套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
