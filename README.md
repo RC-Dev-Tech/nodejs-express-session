@@ -37,6 +37,8 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 > session資料不會儲存在cookie裡，cookie存的是sessionID.<br>
 > session資料是儲存在server端.<br>
 
+<br>
+
 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example1.ts) - 基本session的使用方式.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example2.ts) - 簡易版登入實作.
