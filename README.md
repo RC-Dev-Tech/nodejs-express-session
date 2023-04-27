@@ -34,9 +34,6 @@
 Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 可以把Cookie當成是客戶端專用的網頁暫存資料，<br>
 而Session則是後端專用的客戶暫存資料.<br>
-
-<br>
-
 > session資料不會儲存在cookie裡，cookie存的是sessionID.<br>
 > session資料是儲存在server端.<br>
 
