@@ -1,11 +1,12 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - Express Session
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-<br>
+---
 
 <!--ts-->
-## 目錄
+## 目錄:
 * [簡介](#簡介)
+* [實作範例](#實作範例)
 * [使用套件](#使用套件)
 * [操作說明](#操作說明)
 * [屬性說明](#屬性說明)
@@ -16,9 +17,8 @@
 <!--te-->
 
 ---
-<br>
 
-## 簡介
+## 簡介:
 什麼是Session? 用白話一點的說法就是客戶連接後，後端給的臨時身份證明，<br>
 大概可以想像成就是，當你想去圖書館借書時，首先你要先註冊圖書館的會員，<br>
 接下來每次當你去圖書館的時候，圖書館都會根據你的會籍而發給你一張臨時的借書證，<br>
@@ -39,31 +39,28 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 
 <br>
 
-實作範例:
+## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example1.ts) - 基本session的使用方式.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example2.ts) - 簡易版登入實作.
 
 ---
-<br>
 
-## 使用套件.
+## 使用套件:
 - express
 - cookie-parser
 - express-session
 
 ---
-<br>
 
-## 操作說明.
+## 操作說明:
 #### 1. 安裝套件 [^1]
 > npm install --save
 #### 2. 編譯 & 運行
 > npm run start
 
 ---
-<br>
 
-## 屬性說明
+## 屬性說明:
 **express.use(session({屬性})):**
 - cookie：儲存 sessionID 的 Cookie 的形式. (這邊的設置跟Cookie-Parser相同)
 - genid：產生 sessionID 的方式.
@@ -76,21 +73,18 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 - unset：設定是否刪除或保留.（'destroy' 或 'keep'）
 
 ---
-<br>
 
-## 切換範例
+## 切換範例:
 > 編輯在app.json中的"exsample_mode"，填入的數字代表第幾個範例.
 
 ---
-<br>
 
-## 延伸項目
+## 延伸項目:
 * [NodeJs 系列實作](https://github.com/RC-Dev-Tech/nodejs-index) <br>
 
 ---
-<br>
 
-## 參考資料
+## 參考資料:
 * [Basic Login System with Node.js, Express, and MySQL](https://codeshack.io/basic-login-system-nodejs-express-mysql/) <br>
 * [[Node.js] cookie-session驗證原理以及express-session套件使用](https://medium.com/johnny%E7%9A%84%E8%BD%89%E8%81%B7%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%AD%86%E8%A8%98/node-js-cookie-session%E9%A9%97%E8%AD%89%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8Aexpress-session%E5%A5%97%E4%BB%B6%E4%BD%BF%E7%94%A8-aeafa386837e) <br>
 * [191015學習筆記 Express - Session](https://ithelp.ithome.com.tw/articles/10228375) <br>
@@ -102,11 +96,14 @@ Cookie跟Session有什麼不同呢？如果真的硬要比的話，<br>
 * [Nodejs进阶：express+session实现简易身份认证](https://www.cnblogs.com/chyingp/p/nodejs-learning-express-session.html) <br>
 
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
-## 備註：
+
+## 備註:
 
 [^1]: 在這個範例中我們需要安裝部分套件，指令如下：<br>
 `npm install express --save` <br>
